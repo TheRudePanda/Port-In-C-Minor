@@ -1,0 +1,34 @@
+:root{
+    --clr-primary-200: #faebd7;
+    --clr-secondary-500: #997b0e;
+
+    --ff-primary: 'Raleway', sans-serif;
+    --ff-secondary: 'Nunito', sans-serif;
+
+}
+
+
+
+h1,
+h2{
+    font-family: var(--ff-secondary);
+    color: var(--clr-secondary-500);
+    margin: 0;
+}
+p{
+    color: var(--clr-secondary-500);
+    font-family: var(--ff-primary);
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.container {
+    background-color: antiquewhite;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+  }
+
+
+section{
+    padding: 2rem 0;
+}
