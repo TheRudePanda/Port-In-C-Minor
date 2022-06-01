@@ -1,6 +1,8 @@
 :root{
     --clr-primary-200: #faebd7;
     --clr-secondary-500: #997b0e;
+    --clr-third-700:  #735215;
+    --clr-text-600: #9e7220;
 
     --ff-primary: 'Raleway', sans-serif;
     --ff-secondary: 'Nunito', sans-serif;
@@ -12,23 +14,51 @@
 h1,
 h2{
     font-family: var(--ff-secondary);
-    color: var(--clr-secondary-500);
+    color: var(--clr-text-600);
     margin: 0;
 }
+
+
 p{
-    color: var(--clr-secondary-500);
+    color: var(--clr-text-600);
     font-family: var(--ff-primary);
     font-size: 1.4rem;
     margin: 0;
 }
 
+.pic-section img{
+    width: min(100%, 68rem);
+    margin-inline: auto;
+}
+
 .container {
-    background-color: antiquewhite;
     margin-inline: auto;
     width: min(90%, 70.5rem);
-  }
+}
 
 
 section{
-    padding: 2rem 0;
+    padding: 0rem 0;
+}
+
+
+.header-sect{
+    background-color: var(--clr-primary-200) ;
+    text-align: center;
+    padding: 7rem;
+    padding-bottom: 12rem;
+}
+
+
+.text-sect{
+    background-color: rgb(240, 196, 137);
+    padding: 5rem;
+}
+
+
+.pic-section{
+    background-color: #3e1501f7;
+    color: var(--clr-primary-200) ;
+    padding: 5rem;
+
 }
