@@ -28,6 +28,7 @@ p{
 
 .pic-section img{
     width: min(100%, 68rem);
+    margin-top: 3rem;
     margin-inline: auto;
 }
 
@@ -55,6 +56,11 @@ section{
     padding: 5rem;
 }
 
+.text-sect img{
+    width: min(40%, 47rem);
+    border-radius: 50%;
+    float: right;
+}
 
 .pic-section{
     background-color: #3e1501f7;
